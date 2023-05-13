@@ -1,0 +1,4 @@
+baseURL = 'https://blog.wahderland.com/'
+languageCode = 'en-us'
+title = 'RestBlog'
+theme = 'Diary'
