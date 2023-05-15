@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on RestBlog</title>
+    <link>https://blog.wahderland.com/posts/</link>
+    <description>Recent content in Posts on RestBlog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 15 May 2023 21:06:53 +0800</lastBuildDate><atom:link href="https://blog.wahderland.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Software Engineer Career</title>
+      <link>https://blog.wahderland.com/posts/sotware-engineer-roadmap/</link>
+      <pubDate>Mon, 15 May 2023 21:06:53 +0800</pubDate>
+      
+      <guid>https://blog.wahderland.com/posts/sotware-engineer-roadmap/</guid>
+      <description>Basic Data Bits Bytes Endianness Category Integer unsinged signed Decimal float number double number quad number Characters (code unit based) Encoding ascii unicode code unit length: usc2, usc4 code unit encoding: utf-8, utf-16, utf-32 Color: RGB bit depth (or bit per channel) channel (RGB = 3 channels) level (2^n, n = bit depth, per channel) pixel depth (or color depth, or bpp) Sound: (TODO) Bucket Category Picutre Music Text File Archive Padding, Alignment Remember/Memory volatile register memory stack heap (unmanaged memory) managed memory (often referred to GC managed heap) non-volatile HDD SSD Action Computing Scalar Vector Branch if&amp;hellip;else if&amp;hellip;else switch pattern matching (frequently appearing recently) Loop for loop while do&amp;hellip;while foreach (frequently appearing recently) Memory Control Read Write Communication Node to Node, Total two nodes Network Topolgy, More than two nodes Start Ring Mesh Bus Hybrid Internet Model OSI model TCP model Protocol MAC address IP IPv4 IPv6 (TODO) TCP UDP Phyiscally Programming Language Compiled Language Without GC C C++ With GC Java C# Golang Dart Interpreted language Python Bash Powershell Domain Specific language (DSL) SQL Family MySQL PostgreSQL SQLite NoSQL MongoDB Others xpath json path Data Structure (means organizing data) Sequencial Tree Hash Table Algorithm Searching Sorting Mathematic Problem Representation Language XML HTML JSON YAML Program Language Features Function Call Pointer Memory management stack memory heap memory managed memory Argument Pass By Value, Pass By Pointer Exception Struct Class, Object Inherit Abstract Vitrual function Interface Compilation Unit Module Management(File-based, Class-based) Linker Variable Scope Life time Ownership Management Rust Generic, Template Macro, Annotation Automatically generated code Multi-thread TLS Asynchronizes (Mutliple tasks) Single Consumer Multiple Consumer Multi-process Communication Unix socket Pipe Shared Memory Localhost socket Network Programming Socket server programming polling select epoll Socket client programming retry Security TLS Transport Protocol TCP UDP Application Protocol HTTP Websockets DNS (TODO) Database Normalization 1NF 2NF 3NF Transaction Clustering Sharding Partioning Single-Master, Multiple-Master, Router, Data Node APP Android Activity Intent Universal URL Notification Remote Firebase push notification APN Local Background Task Once Periodic Flutter Widget Infinite List Asynchronize Isolate Platform-Specific Plugins Game Engine Unreal UObject FString FString::Printf TArray Plugins Blueprints Others Qt Cryptography Symmetric AES Asymmetric Fixed Key RSA Generating Pair Key ECDH </description>
+    </item>
+    
+    <item>
+      <title>Rest</title>
+      <link>https://blog.wahderland.com/posts/my-first-post/</link>
+      <pubDate>Sun, 14 May 2023 00:29:38 +0800</pubDate>
+      
+      <guid>https://blog.wahderland.com/posts/my-first-post/</guid>
+      <description>Introduction This is my rest blog.
+For rest my life.
+Ha&amp;hellip;</description>
+    </item>
+    
+  </channel>
+</rss>

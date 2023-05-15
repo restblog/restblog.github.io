@@ -1,0 +1,470 @@
+<?xml-stylesheet href="/rss.xsl" type="text/xsl"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RestBlog</title>
+    <link>https://blog.wahderland.com/</link>
+    <description>Recent content on RestBlog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 15 May 2023 21:06:53 +0800</lastBuildDate>
+    
+        <atom:link href="https://blog.wahderland.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+        <item>
+        <title>Software Engineer Career</title>
+        <link>https://blog.wahderland.com/posts/sotware-engineer-roadmap/</link>
+        <pubDate>Mon, 15 May 2023 21:06:53 +0800</pubDate>
+        
+        <guid>https://blog.wahderland.com/posts/sotware-engineer-roadmap/</guid>
+        <description>RestBlog https://blog.wahderland.com/posts/sotware-engineer-roadmap/ -&lt;h1 id=&#34;basic&#34;&gt;Basic&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;Data
+&lt;ol&gt;
+&lt;li&gt;Bits&lt;/li&gt;
+&lt;li&gt;Bytes
+&lt;ol&gt;
+&lt;li&gt;Endianness&lt;/li&gt;
+&lt;li&gt;Category
+&lt;ol&gt;
+&lt;li&gt;Integer
+&lt;ol&gt;
+&lt;li&gt;unsinged&lt;/li&gt;
+&lt;li&gt;signed&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Decimal
+&lt;ol&gt;
+&lt;li&gt;float number&lt;/li&gt;
+&lt;li&gt;double number&lt;/li&gt;
+&lt;li&gt;quad number&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Characters (code unit based) Encoding
+&lt;ol&gt;
+&lt;li&gt;ascii&lt;/li&gt;
+&lt;li&gt;unicode
+&lt;ol&gt;
+&lt;li&gt;code unit length: usc2, usc4&lt;/li&gt;
+&lt;li&gt;code unit encoding: utf-8, utf-16, utf-32&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Color:
+&lt;ol&gt;
+&lt;li&gt;RGB
+&lt;ol&gt;
+&lt;li&gt;bit depth (or bit per channel)&lt;/li&gt;
+&lt;li&gt;channel (RGB = 3 channels)&lt;/li&gt;
+&lt;li&gt;level (2^n, n = bit depth, per channel)&lt;/li&gt;
+&lt;li&gt;pixel depth (or color depth, or bpp)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Sound:
+&lt;ol&gt;
+&lt;li&gt;(TODO)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Bucket
+&lt;ol&gt;
+&lt;li&gt;Category
+&lt;ol&gt;
+&lt;li&gt;Picutre&lt;/li&gt;
+&lt;li&gt;Music&lt;/li&gt;
+&lt;li&gt;Text File&lt;/li&gt;
+&lt;li&gt;Archive&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Padding, Alignment&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Remember/Memory
+&lt;ol&gt;
+&lt;li&gt;volatile
+&lt;ol&gt;
+&lt;li&gt;register&lt;/li&gt;
+&lt;li&gt;memory
+&lt;ol&gt;
+&lt;li&gt;stack&lt;/li&gt;
+&lt;li&gt;heap (unmanaged memory)&lt;/li&gt;
+&lt;li&gt;managed memory (often referred to GC managed heap)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;non-volatile
+&lt;ol&gt;
+&lt;li&gt;HDD&lt;/li&gt;
+&lt;li&gt;SSD&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Action
+&lt;ol&gt;
+&lt;li&gt;Computing
+&lt;ol&gt;
+&lt;li&gt;Scalar&lt;/li&gt;
+&lt;li&gt;Vector&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Branch
+&lt;ol&gt;
+&lt;li&gt;if&amp;hellip;else if&amp;hellip;else&lt;/li&gt;
+&lt;li&gt;switch&lt;/li&gt;
+&lt;li&gt;pattern matching (frequently appearing recently)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Loop
+&lt;ol&gt;
+&lt;li&gt;for loop&lt;/li&gt;
+&lt;li&gt;while&lt;/li&gt;
+&lt;li&gt;do&amp;hellip;while&lt;/li&gt;
+&lt;li&gt;foreach (frequently appearing recently)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Memory Control
+&lt;ol&gt;
+&lt;li&gt;Read&lt;/li&gt;
+&lt;li&gt;Write&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Communication
+&lt;ol&gt;
+&lt;li&gt;Node to Node, Total two nodes&lt;/li&gt;
+&lt;li&gt;Network Topolgy, More than two nodes
+&lt;ol&gt;
+&lt;li&gt;Start&lt;/li&gt;
+&lt;li&gt;Ring&lt;/li&gt;
+&lt;li&gt;Mesh&lt;/li&gt;
+&lt;li&gt;Bus&lt;/li&gt;
+&lt;li&gt;Hybrid&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Internet Model
+&lt;ol&gt;
+&lt;li&gt;OSI model&lt;/li&gt;
+&lt;li&gt;TCP model&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Protocol
+&lt;ol&gt;
+&lt;li&gt;MAC address&lt;/li&gt;
+&lt;li&gt;IP
+&lt;ol&gt;
+&lt;li&gt;IPv4&lt;/li&gt;
+&lt;li&gt;IPv6 (TODO)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;TCP&lt;/li&gt;
+&lt;li&gt;UDP&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;phyiscally&#34;&gt;Phyiscally&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;Programming Language
+&lt;ol&gt;
+&lt;li&gt;Compiled Language
+&lt;ol&gt;
+&lt;li&gt;Without GC
+&lt;ol&gt;
+&lt;li&gt;C&lt;/li&gt;
+&lt;li&gt;C++&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;With GC
+&lt;ol&gt;
+&lt;li&gt;Java&lt;/li&gt;
+&lt;li&gt;C#&lt;/li&gt;
+&lt;li&gt;Golang&lt;/li&gt;
+&lt;li&gt;Dart&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Interpreted language
+&lt;ol&gt;
+&lt;li&gt;Python&lt;/li&gt;
+&lt;li&gt;Bash&lt;/li&gt;
+&lt;li&gt;Powershell&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Domain Specific language (DSL)
+&lt;ol&gt;
+&lt;li&gt;SQL Family
+&lt;ol&gt;
+&lt;li&gt;MySQL&lt;/li&gt;
+&lt;li&gt;PostgreSQL&lt;/li&gt;
+&lt;li&gt;SQLite&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;NoSQL
+&lt;ol&gt;
+&lt;li&gt;MongoDB&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Others
+&lt;ol&gt;
+&lt;li&gt;xpath&lt;/li&gt;
+&lt;li&gt;json path&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Data Structure (means organizing data)
+&lt;ol&gt;
+&lt;li&gt;Sequencial&lt;/li&gt;
+&lt;li&gt;Tree&lt;/li&gt;
+&lt;li&gt;Hash Table&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Algorithm
+&lt;ol&gt;
+&lt;li&gt;Searching&lt;/li&gt;
+&lt;li&gt;Sorting&lt;/li&gt;
+&lt;li&gt;Mathematic Problem&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Representation Language
+&lt;ol&gt;
+&lt;li&gt;XML&lt;/li&gt;
+&lt;li&gt;HTML&lt;/li&gt;
+&lt;li&gt;JSON&lt;/li&gt;
+&lt;li&gt;YAML&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Program Language Features
+&lt;ol&gt;
+&lt;li&gt;Function Call&lt;/li&gt;
+&lt;li&gt;Pointer&lt;/li&gt;
+&lt;li&gt;Memory management
+&lt;ol&gt;
+&lt;li&gt;stack memory&lt;/li&gt;
+&lt;li&gt;heap memory&lt;/li&gt;
+&lt;li&gt;managed memory&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Argument&lt;/li&gt;
+&lt;li&gt;Pass By Value, Pass By Pointer&lt;/li&gt;
+&lt;li&gt;Exception&lt;/li&gt;
+&lt;li&gt;Struct&lt;/li&gt;
+&lt;li&gt;Class, Object
+&lt;ol&gt;
+&lt;li&gt;Inherit&lt;/li&gt;
+&lt;li&gt;Abstract&lt;/li&gt;
+&lt;li&gt;Vitrual function&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Interface&lt;/li&gt;
+&lt;li&gt;Compilation Unit&lt;/li&gt;
+&lt;li&gt;Module Management(File-based, Class-based)&lt;/li&gt;
+&lt;li&gt;Linker&lt;/li&gt;
+&lt;li&gt;Variable
+&lt;ol&gt;
+&lt;li&gt;Scope&lt;/li&gt;
+&lt;li&gt;Life time&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Ownership Management
+&lt;ol&gt;
+&lt;li&gt;Rust&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Generic, Template&lt;/li&gt;
+&lt;li&gt;Macro, Annotation&lt;/li&gt;
+&lt;li&gt;Automatically generated code&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Multi-thread
+&lt;ol&gt;
+&lt;li&gt;TLS&lt;/li&gt;
+&lt;li&gt;Asynchronizes (Mutliple tasks)
+&lt;ol&gt;
+&lt;li&gt;Single Consumer&lt;/li&gt;
+&lt;li&gt;Multiple Consumer&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Multi-process
+&lt;ol&gt;
+&lt;li&gt;Communication
+&lt;ol&gt;
+&lt;li&gt;Unix socket&lt;/li&gt;
+&lt;li&gt;Pipe&lt;/li&gt;
+&lt;li&gt;Shared Memory&lt;/li&gt;
+&lt;li&gt;Localhost socket&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Network Programming
+&lt;ol&gt;
+&lt;li&gt;Socket server programming
+&lt;ol&gt;
+&lt;li&gt;polling&lt;/li&gt;
+&lt;li&gt;select&lt;/li&gt;
+&lt;li&gt;epoll&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Socket client programming
+&lt;ol&gt;
+&lt;li&gt;retry&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Security
+&lt;ol&gt;
+&lt;li&gt;TLS&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Transport Protocol
+&lt;ol&gt;
+&lt;li&gt;TCP&lt;/li&gt;
+&lt;li&gt;UDP&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Application Protocol
+&lt;ol&gt;
+&lt;li&gt;HTTP&lt;/li&gt;
+&lt;li&gt;Websockets&lt;/li&gt;
+&lt;li&gt;DNS (TODO)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;database&#34;&gt;Database&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;Normalization
+&lt;ol&gt;
+&lt;li&gt;1NF&lt;/li&gt;
+&lt;li&gt;2NF&lt;/li&gt;
+&lt;li&gt;3NF&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Transaction&lt;/li&gt;
+&lt;li&gt;Clustering
+&lt;ol&gt;
+&lt;li&gt;Sharding&lt;/li&gt;
+&lt;li&gt;Partioning&lt;/li&gt;
+&lt;li&gt;Single-Master, Multiple-Master, Router, Data Node&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;app&#34;&gt;APP&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;Android
+&lt;ol&gt;
+&lt;li&gt;Activity&lt;/li&gt;
+&lt;li&gt;Intent&lt;/li&gt;
+&lt;li&gt;Universal URL&lt;/li&gt;
+&lt;li&gt;Notification
+&lt;ol&gt;
+&lt;li&gt;Remote
+&lt;ol&gt;
+&lt;li&gt;Firebase push notification&lt;/li&gt;
+&lt;li&gt;APN&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Local&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Background Task
+&lt;ol&gt;
+&lt;li&gt;Once&lt;/li&gt;
+&lt;li&gt;Periodic&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Flutter
+&lt;ol&gt;
+&lt;li&gt;Widget&lt;/li&gt;
+&lt;li&gt;Infinite List&lt;/li&gt;
+&lt;li&gt;Asynchronize&lt;/li&gt;
+&lt;li&gt;Isolate&lt;/li&gt;
+&lt;li&gt;Platform-Specific Plugins&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;game-engine&#34;&gt;Game Engine&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;Unreal
+&lt;ol&gt;
+&lt;li&gt;UObject&lt;/li&gt;
+&lt;li&gt;FString
+&lt;ol&gt;
+&lt;li&gt;FString::Printf&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;TArray&lt;/li&gt;
+&lt;li&gt;Plugins&lt;/li&gt;
+&lt;li&gt;Blueprints&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;others&#34;&gt;Others&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;Qt&lt;/li&gt;
+&lt;li&gt;Cryptography
+&lt;ol&gt;
+&lt;li&gt;Symmetric
+&lt;ol&gt;
+&lt;li&gt;AES&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Asymmetric
+&lt;ol&gt;
+&lt;li&gt;Fixed Key
+&lt;ol&gt;
+&lt;li&gt;RSA&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Generating Pair Key
+&lt;ol&gt;
+&lt;li&gt;ECDH&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+- https://blog.wahderland.com/posts/sotware-engineer-roadmap/ - </description>
+        </item>
+    
+    
+    
+        <item>
+        <title>Rest</title>
+        <link>https://blog.wahderland.com/posts/my-first-post/</link>
+        <pubDate>Sun, 14 May 2023 00:29:38 +0800</pubDate>
+        
+        <guid>https://blog.wahderland.com/posts/my-first-post/</guid>
+        <description>RestBlog https://blog.wahderland.com/posts/my-first-post/ -&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;
+&lt;p&gt;This is my rest blog.&lt;br&gt;
+For rest my life.&lt;br&gt;
+Ha&amp;hellip;&lt;/p&gt;
+- https://blog.wahderland.com/posts/my-first-post/ - </description>
+        </item>
+    
+    
+  </channel>
+</rss> 
