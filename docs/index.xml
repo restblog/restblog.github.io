@@ -6,9 +6,28 @@
     <description>Recent content on RestBlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 May 2023 21:06:53 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 21 May 2023 17:48:07 +0800</lastBuildDate>
     
         <atom:link href="https://blog.wahderland.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+        <item>
+        <title>Business Model Study</title>
+        <link>https://blog.wahderland.com/posts/business-model-study/</link>
+        <pubDate>Sun, 21 May 2023 17:48:07 +0800</pubDate>
+        
+        <guid>https://blog.wahderland.com/posts/business-model-study/</guid>
+        <description>RestBlog https://blog.wahderland.com/posts/business-model-study/ -&lt;h1 id=&#34;game-mechanism&#34;&gt;Game Mechanism&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;(TODO)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;others&#34;&gt;Others&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;(TODO)&lt;/li&gt;
+&lt;/ol&gt;
+- https://blog.wahderland.com/posts/business-model-study/ - </description>
+        </item>
     
     
     
@@ -352,11 +371,23 @@
 &lt;/ol&gt;
 &lt;h1 id=&#34;database&#34;&gt;Database&lt;/h1&gt;
 &lt;ol&gt;
+&lt;li&gt;Schema Design
+&lt;ol&gt;
 &lt;li&gt;Normalization
 &lt;ol&gt;
 &lt;li&gt;1NF&lt;/li&gt;
 &lt;li&gt;2NF&lt;/li&gt;
 &lt;li&gt;3NF&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Indexing
+&lt;ol&gt;
+&lt;li&gt;Single Column&lt;/li&gt;
+&lt;li&gt;Multiple Columns&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Foreign Key&lt;/li&gt;
+&lt;li&gt;Unique Value&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
 &lt;li&gt;Transaction&lt;/li&gt;
@@ -365,6 +396,30 @@
 &lt;li&gt;Sharding&lt;/li&gt;
 &lt;li&gt;Partioning&lt;/li&gt;
 &lt;li&gt;Single-Master, Multiple-Master, Router, Data Node&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;SQL
+&lt;ol&gt;
+&lt;li&gt;INSERT&lt;/li&gt;
+&lt;li&gt;SELECT
+&lt;ol&gt;
+&lt;li&gt;JOIN
+&lt;ol&gt;
+&lt;li&gt;INNER JOIN&lt;/li&gt;
+&lt;li&gt;LEFT JOIN&lt;/li&gt;
+&lt;li&gt;RIGHT JOIN&lt;/li&gt;
+&lt;li&gt;OUTTER JOIN&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Sub Query&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;UPDATE
+&lt;ol&gt;
+&lt;li&gt;RETURNING&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;DELETE&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
@@ -406,6 +461,8 @@
 &lt;/ol&gt;
 &lt;h1 id=&#34;game-engine&#34;&gt;Game Engine&lt;/h1&gt;
 &lt;ol&gt;
+&lt;li&gt;Framework
+&lt;ol&gt;
 &lt;li&gt;Unreal
 &lt;ol&gt;
 &lt;li&gt;UObject&lt;/li&gt;
@@ -419,8 +476,30 @@
 &lt;li&gt;Blueprints&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
+&lt;li&gt;Unity
+&lt;ol&gt;
+&lt;li&gt;il2cpp&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h1 id=&#34;others&#34;&gt;Others&lt;/h1&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Basic Technique
+&lt;ol&gt;
+&lt;li&gt;Input System&lt;/li&gt;
+&lt;li&gt;Event System&lt;/li&gt;
+&lt;li&gt;Physical Emulating System&lt;/li&gt;
+&lt;li&gt;Partical System&lt;/li&gt;
+&lt;li&gt;Map System
+&lt;ol&gt;
+&lt;li&gt;Layer&lt;/li&gt;
+&lt;li&gt;Partial Load&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Advance Technique (TODO)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;others-programming-skill&#34;&gt;Others Programming Skill&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;Qt&lt;/li&gt;
 &lt;li&gt;Cryptography
@@ -444,6 +523,86 @@
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Programming Language Internal
+&lt;ol&gt;
+&lt;li&gt;Category
+&lt;ol&gt;
+&lt;li&gt;Compiled Programming Language
+&lt;ol&gt;
+&lt;li&gt;To Native Machine&lt;/li&gt;
+&lt;li&gt;To Virtual Machine&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Interpreted Programming Language&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Optimiazation Technique (For Compiled VM Language and Interpreted Language)
+&lt;ol&gt;
+&lt;li&gt;Just-In-Time (JIT)&lt;/li&gt;
+&lt;li&gt;Ahead-Of-Time (AOT)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Compiler
+&lt;ol&gt;
+&lt;li&gt;Lexer&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Operation System (TODO)
+&lt;ol&gt;
+&lt;li&gt;Structure (TODO)
+&lt;ol&gt;
+&lt;li&gt;BIOS&lt;/li&gt;
+&lt;li&gt;Bootloader&lt;/li&gt;
+&lt;li&gt;Kernel&lt;/li&gt;
+&lt;li&gt;Driver&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Command Line&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Memory Allocator (TODO)&lt;/li&gt;
+&lt;li&gt;Algorithm
+&lt;ol&gt;
+&lt;li&gt;GC Algorithm (TODO)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;CI/CD
+&lt;ol&gt;
+&lt;li&gt;Unit Test&lt;/li&gt;
+&lt;li&gt;Docker&lt;/li&gt;
+&lt;li&gt;Git
+&lt;ol&gt;
+&lt;li&gt;Push event&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;software-engineering&#34;&gt;Software Engineering&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;S.O.L.I.D.
+&lt;ol&gt;
+&lt;li&gt;Single Responsibility Principle (SRP)&lt;/li&gt;
+&lt;li&gt;The Open/Closed Principle (OCP)&lt;/li&gt;
+&lt;li&gt;Liskov Substitution principle (LSP)&lt;/li&gt;
+&lt;li&gt;Interface-segregation principles (ISP)&lt;/li&gt;
+&lt;li&gt;Dependency Inversion Principle (DIP)
+&lt;ol&gt;
+&lt;li&gt;Inversion-Of-Control (IOC): Factory&lt;/li&gt;
+&lt;li&gt;Dependency Injection (DI): Receiver&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;Design Patterns
+&lt;ol&gt;
+&lt;li&gt;Creation Patterns&lt;/li&gt;
+&lt;li&gt;Structural Patterns&lt;/li&gt;
+&lt;li&gt;Behavior Patterns&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
