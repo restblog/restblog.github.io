@@ -176,15 +176,33 @@ draft: false
 		3. DNS (TODO)
 
 # Database
-1. Normalization
-	1. 1NF
-	2. 2NF
-	3. 3NF
+1. Schema Design
+	1. Normalization
+		1. 1NF
+		2. 2NF
+		3. 3NF
+	2. Indexing
+		1. Single Column
+		2. Multiple Columns
+	3. Foreign Key
+	4. Unique Value
 2. Transaction
 3. Clustering
 	1. Sharding
 	2. Partioning
 	3. Single-Master, Multiple-Master, Router, Data Node
+4. SQL
+	1. INSERT
+	2. SELECT
+		1. JOIN
+			1. INNER JOIN
+			2. LEFT JOIN
+			3. RIGHT JOIN
+			4. OUTTER JOIN
+		2. Sub Query
+	3. UPDATE
+		1. RETURNING
+	4. DELETE
 
 # APP
 1. Android
@@ -207,15 +225,27 @@ draft: false
 	5. Platform-Specific Plugins
 
 # Game Engine
-1. Unreal
-	1. UObject
-	2. FString
-		1. FString::Printf
-	4. TArray
-	3. Plugins
-	3. Blueprints
-
-# Others
+1. Framework
+	1. Unreal
+		1. UObject
+		2. FString
+			1. FString::Printf
+		4. TArray
+		3. Plugins
+		3. Blueprints
+	2. Unity
+		1. il2cpp
+2. Basic Technique
+	1. Input System
+	2. Event System
+	3. Physical Emulating System
+	4. Partical System
+	5. Map System
+		1. Layer
+		2. Partial Load
+3. Advance Technique (TODO)
+		
+# Others Programming Skill
 1. Qt
 2. Cryptography
 	1. Symmetric 
@@ -225,3 +255,43 @@ draft: false
 			1. RSA
 		2. Generating Pair Key
 			1. ECDH
+3. Programming Language Internal
+	1. Category
+		1. Compiled Programming Language
+			1. To Native Machine
+			2. To Virtual Machine
+		2. Interpreted Programming Language
+	2. Optimiazation Technique (For Compiled VM Language and Interpreted Language)
+		1. Just-In-Time (JIT)
+		2. Ahead-Of-Time (AOT)
+4. Compiler
+	1. Lexer
+5. Operation System (TODO)
+	1. Structure (TODO)
+		1. BIOS
+		2. Bootloader
+		3. Kernel
+		4. Driver
+	2. Command Line
+6. Memory Allocator (TODO)
+7. Algorithm
+	1. GC Algorithm (TODO)
+8. CI/CD
+	1. Unit Test
+	2. Docker
+	3. Git
+		1. Push event
+		
+# Software Engineering
+1. S.O.L.I.D.
+	1. Single Responsibility Principle (SRP)
+	2. The Open/Closed Principle (OCP)
+	3. Liskov Substitution principle (LSP)
+	4. Interface-segregation principles (ISP)
+	1. Dependency Inversion Principle (DIP)
+		1. Inversion-Of-Control (IOC): Factory
+		2. Dependency Injection (DI): Receiver
+1. Design Patterns
+	1. Creation Patterns
+	2. Structural Patterns
+	3. Behavior Patterns
